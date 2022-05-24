@@ -6,6 +6,6 @@ const reactionRoutes = require('./reaction-routes');
 // add prefix to routes
 router.use('/user', userRoutes);
 router.use('/thought', thoughtRoutes);
-router.use('/reaction', reactionRoutes);
+//router.use('/reaction', reactionRoutes);
 
 module.exports = router;
